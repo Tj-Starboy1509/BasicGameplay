@@ -25,7 +25,15 @@ public class PlayerCntroller : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+
+        {
+            // Launch a projectile from the player
+            Instantiate(projectileprefab, transform.position, projectileprefab.transform.rotation);
+        }
     }
 }
