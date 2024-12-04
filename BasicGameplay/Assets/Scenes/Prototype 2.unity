@@ -448,7 +448,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -498,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1698992648711117178, guid: 292d5afcead3fa445b328ab7be515a21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1698992648711117178, guid: 292d5afcead3fa445b328ab7be515a21, type: 3}
       propertyPath: m_LocalRotation.w
@@ -570,7 +570,6 @@ MonoBehaviour:
   - {fileID: 4389701789739044049, guid: 16aa8e8961fcc5043b4ded514fad26d7, type: 3}
   - {fileID: 55918177979179559, guid: d873746818b2d7a468e4597a81dae1d9, type: 3}
   - {fileID: 2815115604528503222, guid: 292d5afcead3fa445b328ab7be515a21, type: 3}
-  animalIndex: 0
 --- !u!4 &922299584
 Transform:
   m_ObjectHideFlags: 0
@@ -849,7 +848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546606854692324877, guid: d873746818b2d7a468e4597a81dae1d9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6546606854692324877, guid: d873746818b2d7a468e4597a81dae1d9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -923,7 +922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3059168072436470977, guid: 16aa8e8961fcc5043b4ded514fad26d7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3059168072436470977, guid: 16aa8e8961fcc5043b4ded514fad26d7, type: 3}
       propertyPath: m_LocalRotation.w
