@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalprefabs;
-    public int animalIndex;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +15,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
+            int animalIndex = Random.Range(0, animalprefabs.Length);
             Instantiate(animalprefabs[animalIndex], new Vector3(0, 0, 20),
             animalprefabs[animalIndex].transform.rotation);
         }
